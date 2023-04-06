@@ -14,3 +14,42 @@ body {
   width: auto;
   height: auto;
 }
+
+/* Main Content */
+
+.search-container {
+  margin: 0 0 10px 0;
+}
+
+.search-box {
+  width: auto;
+  height: 25px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+table {
+  border-collapse: collapse;
+  width: 30%;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Main Content End */

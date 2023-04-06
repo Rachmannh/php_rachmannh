@@ -31,7 +31,7 @@ INNER JOIN person p ON h.person_id = p.id_person " . $search_sql . " GROUP BY h.
         <div class="search-container">
             <form action="">
                 <input class="search-box" type="text" placeholder="Search by Hobi...." name="search">
-                <button type="submit">Submit</button>
+                <button class="search-submit" type="submit">Submit</button>
             </form>
         </div>
 
